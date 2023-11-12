@@ -1,0 +1,39 @@
+.Nivea-container {
+    background-color: rgb(255, 249, 241);
+  }
+  
+  .Super-post-container-scroll {
+    overflow-x: hidden;
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .Super-post-container {
+    overflow-x: auto;
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .Super-image-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .Super-image {
+    flex: 0 0 auto;
+    width: 150px; /* Adjusted width */
+    height: 290px; /* Adjusted height */
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .Super-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  

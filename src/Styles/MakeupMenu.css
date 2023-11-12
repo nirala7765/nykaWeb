@@ -1,0 +1,66 @@
+.makeup-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-content {
+    position: absolute;
+    top: 100%;
+    
+   
+    background-color: #fff;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-wrapper {
+    display: flex;
+    
+  
+
+   
+  }
+  
+  .category {
+    
+    width: 150px;
+    word-spacing: 0;
+    
+  }
+  
+  .category h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: start;
+    margin-left: 10px;
+    
+
+  }
+
+  .category h3:hover {
+    color: rgb(240, 85, 111);
+
+  }
+  li{
+    color: lightslategray;
+    text-align: start;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  li:hover{
+    color: rgb(240, 85, 111);
+
+  }
+  span:hover{
+    color: rgb(240, 85, 111);
+    border-bottom: 3px solid rgb(240, 85, 111);
+
+
+  }
+  
+  /* Add more styling as needed */
+  

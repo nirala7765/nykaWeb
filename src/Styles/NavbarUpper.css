@@ -1,0 +1,26 @@
+
+
+.text-wrap {
+    margin-left: 100px;
+    margin-top: 5px;
+    opacity: 0;
+    transform: translateY(20px); /* Adjust the initial position as needed */
+    animation: fadeInUp 2s infinite; /* Adjust the duration as needed */
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  
+  

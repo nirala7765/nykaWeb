@@ -1,0 +1,40 @@
+.post-container {
+    
+    width: 90vw; /* Adjust as needed */
+    margin: 0 auto;
+
+    overflow-x: auto;
+    display: flex;
+    overflow: hidden;
+    
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+   
+   
+  }
+  
+  .image-container {
+    display: flex;
+    
+    gap: 15px;
+   
+   
+     
+  }
+  
+  .image {
+    cursor: pointer;
+    flex: 0 0 auto;
+    width: 348px; /* Adjust as needed */
+    height: 348px; /* Adjust as needed */
+    overflow: hidden;
+    border-radius: 8px; /* Adjust as needed */
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px; /* Adjust as needed */
+  }
+  

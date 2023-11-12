@@ -1,0 +1,79 @@
+
+
+
+
+  
+  /* .Super-post-container-scroll {
+    overflow-x: hidden;
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    transition: transform 5s ease; 
+  }
+  
+  .Super-post-container {
+    overflow-x: hidden;
+    display: flex;
+  }
+  
+  .Super-image-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .Super-image {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .Super-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  */
+
+
+   /* SuperDeals.css */
+
+
+
+.Super-post-container-scroll {
+  overflow-x: hidden;
+  width: 95vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Super-post-container {
+  overflow-x: auto;
+  display: flex;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.Super-image-container {
+  display: flex;
+  gap: 10px;
+}
+
+.Super-image {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.Super-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
