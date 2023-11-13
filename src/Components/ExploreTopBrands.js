@@ -4,9 +4,9 @@ function ExploreTopBrands() {
   return (
 
     <div className="bg-[rgb(243,244,245)] relative">
-    <div className="w-[95%] mx-auto ">
+    <div className="w-[95%] mx-auto  ">
       <h1 className="text-2xl font-bold mb-4 text-left">Explore Our Top Brands</h1>
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-4 mx-auto">
         <div className="relative">
           <img
             className="w-[350px] h-[260px] rounded-md"
