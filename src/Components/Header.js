@@ -7,7 +7,7 @@ import NavBArEnd from "./NavBArEnd";
 function Header() {
   return (
     <>
-      <div>
+      <div >
         <NavBarUpeer />
       </div>
 
