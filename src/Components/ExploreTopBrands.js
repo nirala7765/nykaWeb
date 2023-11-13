@@ -4,7 +4,7 @@ function ExploreTopBrands() {
   return (
 
     <div className="bg-[rgb(243,244,245)] relative">
-    <div className="w-[95%] mx-auto relative ]">
+    <div className="w-[95%] mx-auto  ml-[100px]">
       <h1 className="text-2xl font-bold mb-4 text-left">Explore Our Top Brands</h1>
       <div className="flex flex-wrap gap-4">
         <div className="relative">
